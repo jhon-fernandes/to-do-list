@@ -1,8 +1,6 @@
 <template>
   <div id="app">
-    <main>
-      <ListVue></ListVue>
-    </main>
+    <ListVue></ListVue>
   </div>
 </template>
 

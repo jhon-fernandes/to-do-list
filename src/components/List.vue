@@ -21,7 +21,7 @@
            <input type="button" value="Adicionar"
            class="btn btn-add" @click="add()"> 
 
-           <div >
+           <div v-if="showRemove()">
                
                <input type="button" value="Limpar"
                class="btn btn-remove" @click="removeAll()">
@@ -71,6 +71,16 @@
 
            removeAll(){
                this.todos.splice(this.newTodo)
+           },
+
+           showRemove() {
+               if( this.todos.length == 0 )
+               {
+                   return false 
+               }   else 
+               {
+                   return true
+               }
            }
        }
     }
