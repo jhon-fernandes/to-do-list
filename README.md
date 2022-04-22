@@ -1,29 +1,13 @@
-# to-do-list
+<h2 to-do-list </h2>
 
-This template should help get you started developing with Vue 3 in Vite.
+<p> Sistema de gerenciamento de tarefas, adição, marcar e remover </p>
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+<h4> Recursos trabalhados </h4>
+<ul>
+  <li>Inteirações com Arrays JS através de funções</li>
+  <li> Interação com classes </li>
+  <li> Uso de diretivas </li>
+  <li> Validação de formulário </li>
+</ul>
+<p> Acesse </p>
+https://to-do-list-khaki-chi.vercel.app/
