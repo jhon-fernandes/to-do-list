@@ -65,7 +65,7 @@
                         };
               }   else 
               {
-                  alert("Campo de descrição é obrigatório")
+                  alert("Campo de descrição é obrigatóri")
               }
            },
 
